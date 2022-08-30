@@ -1,0 +1,5 @@
+npx create-react-app nome_do_app
+
+npm install json-server
+
+npm install react-icons react-router-dom uuid
