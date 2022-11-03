@@ -29,9 +29,9 @@ function ProjectForm({ handleSubmit, btnText ,projectData }) {
         handleSubmit(project)
     }
 
-    function handleChange() {
-        setProject({ ...project, [e.ta]})
-    }
+    // function handleChange() {
+    //     setProject({ ...project, [e.ta]})
+    // }
 
     return (
         <form onSubmit={submit} className={styles.form}>
